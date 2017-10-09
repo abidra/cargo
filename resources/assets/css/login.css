@@ -1,0 +1,35 @@
+/*html {
+  !*background: url(../images/bg.jpg) no-repeat center center fixed;*!
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  !*height: 100%;*!
+  !*background-image: url(../images/utama_bg.jpg);*!
+  !*background-repeat: repeat-x;*!
+  background: blue; !* For browsers that do not support gradients *!
+  background: -webkit-linear-gradient(blue, white) no-repeat; !* For Safari 5.1 to 6.0 *!
+  background: -o-linear-gradient(blue, white) no-repeat; !* For Opera 11.1 to 12.0 *!
+  background: -moz-linear-gradient(blue, white) no-repeat; !* For Firefox 3.6 to 15 *!
+  background: linear-gradient(blue, white) no-repeat;
+  height: 100%;
+}*/
+body.login-page, body.register-page{
+  background: transparent;
+  /*background : #ffffff url(../images/bg.jpg)  no-repeat center center;*/
+}
+.login-box,.register-box{
+  margin: 7% auto;
+  /*position: absolute;*/
+  /*right: 30px;*/
+  /*width: 330px;*/
+  /*top:-20%;*/
+}
+.register-box{
+  top:10%;
+  padding-bottom: 5%;
+}
+.login-box .form-control:focus,
+.register-box .form-control:focus{
+  border-color:red;
+}
