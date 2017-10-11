@@ -1,5 +1,5 @@
 # Cargo Invoice
-###Development
+### Development
 Invoice and Price Checking System
 
 ### Tech
@@ -30,6 +30,6 @@ $ php artisan serve
 ### to make module
 php artisan module:make YourModule
 
-#CONTRIBUTOR
+# CONTRIBUTOR
 ---
 ...
