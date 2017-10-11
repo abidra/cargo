@@ -30,6 +30,5 @@ $ php artisan serve
 ### to make module
 php artisan module:make YourModule
 
-# CONTRIBUTOR
----
+## CONTRIBUTOR
 ...
