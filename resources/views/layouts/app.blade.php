@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         ]); ?>;
     </script>
 </head>
-<body class="skin-red-light">
+<body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
     <!-- Header -->

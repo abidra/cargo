@@ -2,22 +2,23 @@
 <header class="main-header">
 
     <!-- Logo -->
-{{-- <a href="{!! url('/') !!}" class="logo">
-  <img src="images/logo-2.png" title="{{env('APP_NAME')}}" />
-</a> --}}
+    <a href="{!! url('/') !!}" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>D</b>In</span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b>Dashboard</b>Invoice</span>
+    </a>
 
-<!-- Header Navbar -->
-    <nav class="navbar navbar-static-top" role="navigation">
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
         <!-- Sidebar toggle button-->
-        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
             <span class="sr-only">Toggle navigation</span>
         </a>
         <!-- Navbar Right Menu -->
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
-                <!-- User Account Menu -->
                 <li class="dropdown user user-menu">
-                    <!-- Menu Toggle Button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-user"></i>
                         <!-- hidden-xs hides the username on small devices so only the image appears. -->

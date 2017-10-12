@@ -1,29 +1,28 @@
-<!-- Left side column. contains the sidebar -->
 <aside class="main-sidebar">
-
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
-
-        <!-- Sidebar Menu -->
-        <ul class="sidebar-menu">
-            <li>
-                <a href="{{url('/')}}">
-                    <img src="{{url('/images/logo.png')}}" alt="solidlogistics" style="width: 25%">
+        <!-- Sidebar user panel -->
+        <!-- search form -->
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">MAIN NAVIGATION</li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-users"></i> <span>Users</span>
                 </a>
             </li>
-            <li class="treeview {{Request::is("dashboard")?'active':''}}">
-                <a href="#"> <img src="{{url('/images/icon-dashboard.png')}}" title="Dashboard" />
-                    <span>Dashboard</span></a>
-            </li>
-
             <li class="treeview">
-                <a href="#"><img src="{{url('/images/icon-documents.png')}}" title="Report" />
-                    <span>Report</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                    <li><a href="#">Archive</a></li>
-                </ul>
+                <a href="#">
+                    <i class="fa fa-barcode"></i> <span>Invoice</span>
+                </a>
             </li>
-        </ul><!-- /.sidebar-menu -->
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-line-chart"></i> <span>Report</span>
+                </a>
+            </li>
+        </ul>
     </section>
     <!-- /.sidebar -->
 </aside>

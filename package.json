@@ -19,7 +19,7 @@
     "vue": "^2.1.10"
   },
   "dependencies": {
-    "admin-lte": "2.3.11",
+    "admin-lte": "2.4.2",
     "bootstrap-sweetalert": "git://github.com/lipis/bootstrap-sweetalert.git",
     "datatables.net": "^1.10.16",
     "datatables.net-bs": "^1.10.16",
