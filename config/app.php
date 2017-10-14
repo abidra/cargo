@@ -237,6 +237,9 @@ return [
         'Module' => Nwidart\Modules\Facades\Module::class,
         'Helper' => App\Helpers\Helpers::class,
 
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+
     ],
 
 ];

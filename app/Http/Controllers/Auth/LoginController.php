@@ -46,7 +46,7 @@ class LoginController extends Controller
 
         if (Auth::attempt($request->only($field, 'password')))
         {
-            return redirect('/');
+            return redirect('/admin');
         }
 
         return redirect('/login')->withErrors([

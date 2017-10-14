@@ -12,11 +12,11 @@ class RolesSeeder extends Seeder
      */
     public function run()
     {
-      $admin = new Role;
-      $admin->name = 'admin_karyawan';
-      $admin->display_name = 'Admin Karyawan';
-      $admin->description = 'Admin Karyawan';
-      $admin->save();
+//      $admin = new Role;
+//      $admin->name = 'admin_karyawan';
+//      $admin->display_name = 'Admin Karyawan';
+//      $admin->description = 'Admin Karyawan';
+//      $admin->save();
       // $admin = new Role;
       // $admin->name = 'directorat';
       // $admin->display_name = 'Direktorat';

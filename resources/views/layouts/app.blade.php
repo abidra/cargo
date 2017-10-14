@@ -36,12 +36,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        <section class="content-header">
+{{--        <section class="content-header">
             <h1>
                 {{ $page_title or "Home Page" }}
                 <small>{{ $page_description or null }}</small>
             </h1>
-        </section>
+        </section>--}}
 
         <!-- Main content -->
         <section class="content">
@@ -96,6 +96,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
 <script src="{{ mix('js/all.js') }}"></script>
-@stack('scripts')
+@yield('scripts')
 </body>
 </html>

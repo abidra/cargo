@@ -15,7 +15,8 @@
     return view('welcome');
 });*/
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', '\Modules\Daerah\Http\Controllers\DaerahController@index')->name('daerah');
+Route::get('/admin', '\Modules\Admin\Http\Controllers\AdminController@index')->name('admin');
 Auth::routes();
 
 Route::get('/logout', function () {
