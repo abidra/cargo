@@ -17,8 +17,8 @@
           <div class="nav-tabs-custom">
           <ul class="nav nav-tabs">
               <li class="active"><a href="#info-tab" data-toggle="tab">General <i class="fa"></i></a></li>
-              <li><a href="#address-tab" data-toggle="tab">Volume Information <i class="fa"></i></a></li>
-              <li class="active"><a href="#info-tab" data-toggle="tab">Container Information <i class="fa"></i></a></li>
+              <li><a href="#volume-information" data-toggle="tab">Volume Information <i class="fa"></i></a></li>
+              <li><a href="#container-information" data-toggle="tab">Container Information <i class="fa"></i></a></li>
               <li><a href="#address-tab" data-toggle="tab">Pickup and Delivery Information <i class="fa"></i></a></li>
           </ul>
           <form id="accountForm" method="post" class="form-horizontal">
@@ -246,6 +246,71 @@
                     </div>
                   </div>
                 </div>
+                  <div class="tab-pane" id="volume-information">
+                      <div class="box box-default">
+                          <div class="box-header with-border">
+                              <h3 class="box-title">Volume Information</h3>
+                          </div>
+                          <!-- /.box-header -->
+                          <div class="box-body">
+                              <div class="text-left bottom10">
+                                  <a class="btn default" data-target="#add-volume" data-toggle="modal"><i class="fa fa-plus"></i> Add Detail Item</a>
+                              </div>
+                              <div>
+                                  <table class="table table-bordered table-striped" id="dataTableBuilder">
+                                      <thead>
+                                      <tr>
+                                          <th>No</th>
+                                          <th>QTY</th>
+                                          <th>Size/Type</th>
+                                          <th>L</th>
+                                          <th>W</th>
+                                          <th>H</th>
+                                          <th>Gwt</th>
+                                          <th>Nwt</th>
+                                          <th>Cbm</th>
+                                          <th>Container #</th>
+                                          <th>Sel #</th>
+                                          <th>Size</th>
+                                          <th>Pcs</th>
+                                          <th></th>
+                                      </tr>
+                                      </thead>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane" id="container-information">
+                      <div class="box box-default">
+                          <div class="box-header with-border">
+                              <h3 class="box-title">Container Information</h3>
+                          </div>
+                          <!-- /.box-header -->
+                          <div class="box-body">
+                              <div>
+                                  <table class="table table-bordered table-striped" id="table-container">
+                                      <thead>
+                                      <tr>
+                                          <th>No</th>
+                                          <th>Container #</th>
+                                          <th>Size/Type</th>
+                                          <th>Seal</th>
+                                          <th>Qty</th>
+                                          <th>Pkg Type</th>
+                                          <th>Commodity</th>
+                                          <th>Pcs</th>
+                                          <th>Gwt</th>
+                                          <th>Nwt</th>
+                                          <th>Cbm</th>
+                                          <th></th>
+                                      </tr>
+                                      </thead>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
                   <div class="tab-pane" id="address-tab">
                       <div class="form-group">
                           <label class="col-xs-3 control-label">Address</label>

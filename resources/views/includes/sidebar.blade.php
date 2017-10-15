@@ -18,8 +18,8 @@
                     <li class="{{ Request::is ("usermanagements") ? 'active' : '' }}"><a href="{{ route('usermanagements.index') }}">Role Management</a></li>
                 </ul>
             </li>
-            <li class="treeview">
-                <a href="#">
+            <li class="">
+                <a href="{{ route('admin.invoice') }}">
                     <i class="fa fa-barcode"></i> <span>Invoice</span>
                 </a>
             </li>

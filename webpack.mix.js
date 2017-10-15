@@ -19,6 +19,7 @@ mix.copyDirectory('node_modules/summernote/dist/font','public/fonts')
     .copy('node_modules/admin-lte/plugins/iCheck/square/blue.png','public/css/blue.png')
     .copy('node_modules/admin-lte/plugins/iCheck/square/blue@2x.png','public/css/blue@2x.png')
     .copy('resources/assets/images','public/images')
+    // .copy('resources/assets/global/plugins/dhtmlx/skins/web/imgs','public/imgs', false)
     //.sass('app.scss')
     .styles([
         'public/css/app.css',
@@ -41,6 +42,7 @@ mix.copyDirectory('node_modules/summernote/dist/font','public/fonts')
         'node_modules/admin-lte/dist/css/AdminLTE.css',
         // 'node_modules/admin-lte/dist/css/skins/skin-red-light.css',
         'node_modules/admin-lte/dist/css/skins/skin-blue.css',
+        // 'resources/assets/global/plugins/dhtmlx/skins/web/dhtmlx.css'
         // 'resources/assets/css/custom.css'
     ], 'public/css/all.css', './')
     .styles([
@@ -88,7 +90,8 @@ mix.copyDirectory('node_modules/summernote/dist/font','public/fonts')
         // 'node_modules/admin-lte/dist/js/app.js',
         'node_modules/admin-lte/dist/js/adminlte.js',
         // 'public/js/app.js',
-        'resources/assets/js/custom.js'
+        'resources/assets/js/custom.js',
+        // 'resources/assets/global/plugins/dhtmlx/codebase/dhtmlx.js'
     ], 'public/js/all.js', './')
     .scripts([
         'node_modules/jquery/dist/jquery.js',
