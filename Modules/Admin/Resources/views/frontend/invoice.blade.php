@@ -254,10 +254,12 @@
                           <!-- /.box-header -->
                           <div class="box-body">
                               <div class="text-left bottom10">
-                                  <a class="btn default" data-target="#add-volume" data-toggle="modal"><i class="fa fa-plus"></i> Add Detail Item</a>
+                                  {{--<a class="btn default" data-target="#add-volume" data-toggle="modal"><i class="fa fa-plus"></i> Add Detail Item</a>--}}
+                                  {{--<button id="addRow">Add Detail Item</button>--}}
+                                  <a class="btn default" id="addRow"><i class="fa fa-plus"></i> Add Detail Item</a>
                               </div>
                               <div>
-                                  <table class="table table-bordered table-striped" id="dataTableBuilder">
+                                  <table class="table table-bordered table-striped" id="table-volumes">
                                       <thead>
                                       <tr>
                                           <th>No</th>
@@ -273,7 +275,6 @@
                                           <th>Sel #</th>
                                           <th>Size</th>
                                           <th>Pcs</th>
-                                          <th></th>
                                       </tr>
                                       </thead>
                                   </table>
@@ -361,4 +362,31 @@
 @endsection
 
 @section('scripts')
+    <script>
+            var t = $('#table-volumes').DataTable();
+            var counter = 1;
+
+            $('#addRow').on( 'click', function () {
+                t.row.add( [
+                    counter +'',
+                    counter +'.89',
+                    counter +'.ROLL',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00',
+                    counter +'.00'
+                ] ).draw( );
+
+                counter++;
+            } );
+
+            // Automatically add a first row of data
+            $('#addRow').click();
+    </script>
 @endsection

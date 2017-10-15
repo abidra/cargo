@@ -87,7 +87,7 @@ class AdminController extends Controller
         return view('admin::edit');
     }
 
-    public function invoice(Request $request)
+    public function invoice()
     {
       return view('admin::frontend.invoice');
     }

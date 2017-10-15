@@ -2,8 +2,9 @@
 
 Route::group(['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Modules\Admin\Http\Controllers'], function()
 {
+    Route::resource('admin', 'AdminController');
     Route::get('/', 'AdminController@index')->name('admin.index');
-    Route::get('/users', 'AdminController@index')->name('admin.users');
+//    Route::get('/users', 'AdminController@index')->name('admin.users');
     Route::get('/admins', 'AdminsController@index')->name('admin.admins');
     route::get('/invoice', 'AdminController@invoice')->name('admin.invoice');
 //    Route::get('/admins/create', 'AdminsController@create')->name('admin.admins.create');
