@@ -5,6 +5,7 @@ Route::group(['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Module
     Route::get('/', 'AdminController@index')->name('admin.index');
     Route::get('/users', 'AdminController@index')->name('admin.users');
     Route::get('/admins', 'AdminsController@index')->name('admin.admins');
+    route::get('/invoice', 'AdminController@invoice')->name('admin.invoice');
 //    Route::get('/admins/create', 'AdminsController@create')->name('admin.admins.create');
 //    Route::post('/admins/store', 'AdminsController@create')->name('admin.admins.store');
 //    Route::get('/admins/{id}/edit', 'AdminsController@edit')->name('admin.admins.edit');

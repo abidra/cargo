@@ -84,6 +84,10 @@ class AdminController extends Controller
         return view('admin::edit');
     }
 
+    public function invoice()
+    {
+      return view('admin::frontend.invoice');
+    }
     /**
      * Update the specified resource in storage.
      * @param  Request $request
