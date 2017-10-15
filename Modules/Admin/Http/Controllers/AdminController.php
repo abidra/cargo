@@ -2,9 +2,12 @@
 
 namespace Modules\Admin\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use Yajra\Datatables\Html\Builder;
+use Yajra\Datatables\Datatables;
 
 class AdminController extends Controller
 {
@@ -84,7 +87,7 @@ class AdminController extends Controller
         return view('admin::edit');
     }
 
-    public function invoice()
+    public function invoice(Request $request)
     {
       return view('admin::frontend.invoice');
     }
