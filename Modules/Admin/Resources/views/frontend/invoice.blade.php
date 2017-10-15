@@ -55,8 +55,8 @@
                           </div>
                       </div>
                       <div class="form-group">
-                          <label class="col-xs-6 control-label">Group of Commodity:</label>
-                          <div class="col-xs-6">
+                          <label class="col-xs-3 control-label">Group of Commodity:</label>
+                          <div class="col-xs-9">
                             <select class="form-control select2" style="width: 100%;">
                               <option selected="selected">Alabama</option>
                               <option>Alaska</option>
@@ -100,6 +100,150 @@
                             </select>
                           </div>
                       </div>
+                      <div class="form-group">
+                          <label class="col-xs-3 control-label">POD:</label>
+                          <div class="col-xs-2">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                          <div class="col-xs-7">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label class="col-xs-3 control-label">Final Dlv:</label>
+                          <div class="col-xs-2">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                          <div class="col-xs-7">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label class="col-xs-3 control-label">Schedule:</label>
+                          <div class="col-xs-8">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                          <button type="button" class="btn btn-default">+</button>
+                      </div>
+                      <div class="form-group">
+                          <label class="col-xs-3 control-label">Vessel:</label>
+                          <div class="col-xs-7">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                          <div class="col-xs-2">
+                              <input type="text" class="form-control" name="fullName" />
+                          </div>
+                      </div>
+                      <div class="row">
+                        <label class="col-xs-1 control-label">20':</label>
+                        <div class="col-xs-2">
+                        <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <label class="col-xs-1 control-label">40':</label>
+                        <div class="col-xs-2">
+                        <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <label class="col-xs-1 control-label">45':</label>
+                        <div class="col-xs-2">
+                        <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <label class="col-xs-1 control-label">HC:</label>
+                        <div class="col-xs-2">
+                        <input type="text" class="form-control" name="fullName" />
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Carrier:</label>
+                        <div class="col-xs-3">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Dlv Agt:</label>
+                        <div class="col-xs-3">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Where:</label>
+                        <div class="col-xs-3">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Desc of Goods:</label>
+                        <div class="col-xs-9">
+                        <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">ETD POL:</label>
+                        <div class="col-xs-4">
+                          <div class="input-group date">
+                          <div class="input-group-addon">
+                            <i class="fa fa-calendar"></i>
+                          </div>
+                          <input type="text" class="form-control pull-right" id="datepicker">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">ETD VIA:</label>
+                        <div class="col-xs-3">
+                          <div class="input-group date">
+                            <div class="input-group-addon">
+                              <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right" id="datepicker">
+                          </div>
+                        </div>
+                        <label class="col-xs-3 control-label">ETA VIA:</label>
+                        <div class="col-xs-3">
+                          <div class="input-group date">
+                            <div class="input-group-addon">
+                              <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right" id="datepicker">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">ETA:</label>
+                        <div class="col-xs-4">
+                          <div class="input-group date">
+                            <div class="input-group-addon">
+                              <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right" id="datepicker">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">MBL#:</label>
+                        <div class="col-xs-3">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" name="fullName" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Remarks:</label>
+                        <div class="col-xs-9">
+                        <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                        </div>
+                    </div>
                   </div>
                 </div>
                   <div class="tab-pane" id="address-tab">
@@ -138,7 +282,7 @@
 
               <div class="form-group" style="margin-top: 15px;">
                   <div class="col-xs-5 col-xs-offset-3">
-                      <button type="submit" class="btn btn-default">Validate</button>
+                      <button type="submit" class="btn btn-default"></button>
                   </div>
               </div>
           </form>
