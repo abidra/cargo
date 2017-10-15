@@ -532,6 +532,7 @@
 @section('scripts')
     <script>
             var t = $('#table-volumes').DataTable();
+            var t_container = $('#table-container').DataTable();
             var counter = 1;
 
             $('#addRow').on( 'click', function () {
